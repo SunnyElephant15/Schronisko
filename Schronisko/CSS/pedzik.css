@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    background-color: #EEF8E3;
+  }
+  a:link
+  {
+      color: #213409;
+      text-decoration: none;
+  }
+  a:visited{
+    color: #213409;
+  }
+    
+  * {
+    text-decoration:none;
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    outline:none;
+  }
+  
+  section {
+    width:100%;
+    max-width:1200px;
+    margin:0px auto;
+    display:table;
+    position:relative;}
+      
+    .menu {
+    margin: auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color:#B0DC7A;
+    text-align: center;
+  }
+    
+  header {
+    display: block;
+    position: fixed;
+    width:100%;
+    display:table;
+    background-color:#B0DC7A;
+    background-image: url(../logo.png);
+    margin-bottom:50px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+  }
+    
+  .name_of_the_shelter {
+    width: 100px;
+    float:left;
+  }
+  
+  nav {
+    width:auto; 
+    float:right;
+  }
+    
+  nav ul {
+    display:table;
+    float:right;
+  }
+    
+    nav ul li {
+      float:left;
+    }
+    
+  nav ul li a {
+    color: #213409;
+    font-size:18px; 
+    padding: 25px 20px; 
+    display:inline-block; 
+    transition: all 0.5s ease 0s;
+  }
+    
+  nav ul li a:hover {
+    background-color:#496D1D;
+    color:#B0DC7A;
+    transition: all 0.5s ease 0s;
+  }
+  
+  #actual {
+    color:#213409;
+    background-color: #496D1D;
+  }
+  
+  .input-text {
+    text-align: center;
+    background-color: salmon;
+    width: auto;
+    color: red;
+  } 
+  .heading {
+    background-image: url(../Pies_lepszy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading-in {
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 100px;
+    color: #213409;
+    background-color: #b0dc7a6e;
+    border-radius: 30px;
+  }
+
+  /* Main */
+  
+  .main-container{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+  }
+
+  .pets-wrapper{
+    max-width: 90%;
+    max-height: 100%;
+    min-width: 90%;
+    min-height: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .info-container {
+    /* background-color: slateblue; */
+    max-width: 1200px;
+    max-height: 100%;
+    min-width: 100px;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .pet-thumb {
+    min-width: 250px;  
+    min-height: 320px; 
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    /* background-color: tomato; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .single-pet-info{
+    /* background-color: turquoise; */
+    display: flex;
+    min-width: 100%;
+    min-height: fit-content;
+    justify-content: center;
+    font-size: x-large;
+  }
+
+  .medium_sized_photo_adoption{
+    min-height: 300px;
+    min-width: 230px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .single-pet-description {
+    /* background-color: violet; */
+    display: flex;
+    font-size: x-large;
+    max-width: 1100px;
+    max-height: 1000px;
+    margin-top: 2%;
+  }
+  
+  .single-pet-description a{
+    text-align: center;
+  }
+
+  .buton-adoptuj {
+    text-align: center;
+    min-width: 3000px;
+    min-height: 1000px;
+  }
+  
+  /* Stopka */
+    
+  .flex-container-sm {
+    background-color: #B0DC7A;
+    color: #213409;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+  
+  .sm {
+    width: 20%;
+    text-align: center;
+    font-size: 100px;
+  }
+  
+  .sm a:hover {
+    color: #496D1D;
+  }
+  
+  .faq {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+  
+  .stopka a:hover {
+    color: #496D1D;
+  }
+  
+  #authors {
+    text-align: right;
+    background-color: #213409;
+    color: #7FBD32;
+    padding-right: 10px;
+  }
+  
